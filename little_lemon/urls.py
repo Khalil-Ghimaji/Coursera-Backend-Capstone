@@ -20,4 +20,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('restaurant/', include('restaurant.urls')),
+    path('api/', include('littleLemonAPI.urls')),
+    path('auth/', include('djoser.urls')),  # Djoser authentication URLs
+    path('auth/', include('djoser.urls.authtoken')),  # Token authentication URLs
+
 ]
