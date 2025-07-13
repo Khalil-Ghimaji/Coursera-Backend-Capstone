@@ -8,7 +8,6 @@ from littleLemonAPI.serializers import MenuSerializer, BookingSerializer
 
 # Create your views here.
 class MenuItemView(ListCreateAPIView):
-    permission_classes = [IsAuthenticated]
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
 
