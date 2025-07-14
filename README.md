@@ -1,3 +1,5 @@
+The project folder is little_lemon, The app contain the index.html and its related view is restaurant, and the api related files (models,views,serializers,...) are in the littleLemonAPI. Thanks !
+
 /api/menu (public access)
 
 /api/menu/{id} (authentication required)
