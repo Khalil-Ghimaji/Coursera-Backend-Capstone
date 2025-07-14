@@ -2,9 +2,9 @@
 
 /api/menu/{id} (authentication required)
 
-/api/booking (authentication required)
+/api/bookings (authentication required)
 
-/api/booking/{id} (authentication required)
+/api/bookings/{id} (authentication required)
 
 /auth/token/login
 
